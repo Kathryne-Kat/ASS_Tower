@@ -1626,7 +1626,9 @@ body.no-scroll {
 .footer-bottom li {
   padding-bottom: 24px;
 }
-
+.footer-bottom-service ul li a:hover {
+  color: var(--accent-color);
+}
 .footer-bottom-service-form input {
   display: block;
   background-color: var(--accent-color2);
