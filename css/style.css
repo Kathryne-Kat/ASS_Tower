@@ -1443,6 +1443,9 @@ body.no-scroll {
   .form-container {
     padding: 0;
   }
+  .form-wrep form input {
+    height: 64px;
+  }
 }
 @media screen and (max-width: 480px) {
 }
@@ -2277,8 +2280,12 @@ body.no-scroll {
 }
 @media screen and (max-width: 768px) {
   .p-post-container {
-    padding: 0;
+    padding: 24px;
   }
+  /* .p-post-wrap {
+    margin-left: 24px;
+    margin-right: 24px;
+  } */
   .p-post-head img {
     max-width: none;
     height: 300px;
@@ -2300,6 +2307,8 @@ body.no-scroll {
     font-size: 24px;
   }
   .p-post-form-wrep {
+    /* margin-left: 24px;
+    margin-right: 24px; */
     padding: 24px;
   }
   .p-post-form-wrep form input {
