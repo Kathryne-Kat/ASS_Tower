@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>СТО Вишка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-row">
+        <div class="header-burger">
+          <img src="./img/burger.svg" alt="меню" />
+        </div>
+        <div class="header-logo logo">
+          <img src="./img/logo.svg" alt="логотип" />
+          <a href="./index.html"> <span>Вишка</span></a>
+        </div>
+        <nav class="header-menu">
+          <ul>
+            <li>
+              <a href="./index.html" class="nav-link current">Головна</a>
+            </li>
+            <li><a href="./services.html" class="nav-link">Послуги</a></li>
+            <li><a href="./contacts.html" class="nav-link">Контакти</a></li>
+          </ul>
+        </nav>
+        <button class="header-btn btn popup-open" type="button">
+          Записатися Онлайн
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="mobile-menu-header">
+          <div class="header-row">
+            <div class="mobile-menu-close">
+              <img src="./img/icon-close.svg" alt="меню" />
+            </div>
+            <div class="header-logo-mobil logo">
+              <img src="./img/logo.svg" alt="логотип" />
+              <span>Вишка</span>
+            </div>
+            <button class="header-btn btn" type="button">
+              Записатися Онлайн
+            </button>
+          </div>
+        </div>
+        <div class="mobile-menu-body">
+          <ul class="mobile-menu-list">
+            <li><a href="./index.html" class="current">Головна</a></li>
+            <li><a href="./services.html">Послуги</a></li>
+            <li><a href="./contacts.html">Контакти</a></li>
+          </ul>
+          <ul class="footer-top-list mobile-menu-contact">
+            <li>
+              <div class="footer-top-list-icon angles">
+                <span></span><img src="./img/icon-phone.svg" alt="іконка" />
+              </div>
+              <div class="footer-top-list-text">
+                <p>Дзвоніть</p>
+                <p>(050)-4-115-164</p>
+              </div>
+            </li>
+            <li>
+              <div class="footer-top-list-icon angles">
+                <span></span><img src="./img/icon-loco.svg" alt="іконка" />
+              </div>
+              <div class="footer-top-list-text">
+                <p>Приїжджайте</p>
+                <p>
+                  Україна, м. Дніпро,<br />
+                  Вулиця Телевізійна 3
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="footer-top-list-icon angles">
+                <span></span><img src="./img/icon-clok.svg" alt="іконка" />
+              </div>
+              <div class="footer-top-list-text">
+                <p>Час роботи</p>
+                <p>Пн.-Пт: 09:30-19:00</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container-left">
+        <div class="hero-all">
+          <h1 class="hero-title">
+            Продовжіть життя вашого автомобіля з <span>вигодою</span>
+          </h1>
+          <img src="./img/video.gif" alt="відео" />
+        </div>
+        <div class="hero-circle">
+          <p>Знижка</p>
+          <p>30%</p>
+          <p>на заміну масла і фільтрів</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="advantages section">
+      <div class="container-left">
+        <div class="container">
+          <div class="advantages-row row">
+            <div><h2 class="advantages-title section-title">Переваги</h2></div>
+            <ul class="advantages-list">
+              <li>
+                <span class="advantages-angles angles"><span></span>01.</span>
+                <div>
+                  <h3>Кожна хвилина для вас</h3>
+                  <p>
+                    Якщо ви хочете якість та короткий термін виконання робіт,
+                    яке ви очікуєте від сто, але з більш особистою та дружньою
+                    атмосферою, ви знайшли його.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span class="advantages-angles angles"><span></span>02.</span>
+                <div>
+                  <h3>Кращі діагностичні можливості у місто</h3>
+                  <p>
+                    Ми вклали кошти у технології, спеціалізовані інструменти та
+                    діагностичне програмне забезпечення – спеціально розроблені
+                    для професійної програмної діагностики вашого автомобіля.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span class="advantages-angles angles"><span></span>03.</span>
+                <div>
+                  <h3>Професійні стандарти</h3>
+                  <p>
+                    Наша авторемонтна майстерня здатна обслуговувати різні
+                    моделі. Ми робимо тільки ту роботу, яка потрібна для
+                    вирішення вашої проблеми.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section">
+      <div class="container-left">
+        <div class="services-row">
+          <div class="services-title-wrep">
+            <h2 class="services-title section-title">послуги</h2>
+            <p class="services-description">
+              Ми пропонуємо повний спектр послуг СТО для власників транспортних
+              засобів, розташованих у Дніпрі.
+            </p>
+          </div>
+          <div class="swiper swiper-services-list">
+            <div class="swiper-wrapper services-list">
+              <div class="swiper-slide services-list-item">
+                <a href="./post_1.html">
+                  <img src="./img/services1.png" alt="слайд" />
+                  <div>
+                    <h3>Компютерна діагностика</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur. A odio fringilla
+                      aliquet ultrices urna nam
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide services-list-item">
+                <a href="./post_1.html">
+                  <img src="./img/services2.png" alt="слайд" />
+                  <div>
+                    <h3>Заміна масла і фільтрів</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur. A odio fringilla
+                      aliquet ultrices urna nam
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide services-list-item">
+                <a href="./post_1.html">
+                  <img src="./img/services3.png" alt="слайд" />
+                  <div>
+                    <h3>Заміна ременів</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur. A odio fringilla
+                      aliquet ultrices urna nam
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide services-list-item">
+                <a href="./post_1.html">
+                  <img src="./img/services1.png" alt="слайд" />
+                  <div>
+                    <h3>Компютерна діагностика</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur. A odio fringilla
+                      aliquet ultrices urna nam
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide services-list-item">
+                <a href="./post_1.html">
+                  <img src="./img/services2.png" alt="слайд" />
+                  <div>
+                    <h3>Заміна масла і фільтрів</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur. A odio fringilla
+                      aliquet ultrices urna nam
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide services-list-item">
+                <a href="./post_1.html">
+                  <img src="./img/services3.png" alt="слайд" />
+                  <div>
+                    <h3>Заміна ременів</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur. A odio fringilla
+                      aliquet ultrices urna nam
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-button-wrap">
+              <div class="swiper-button-next">
+                <img src="./img/arrow-right-line.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="services-btn-wrap">
+          <div class="shudou"></div>
+          <button class="services-btn btn" type="button">
+            Записатися Онлайн
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="models section">
+      <div class="container-left">
+        <div class="container">
+          <div class="models-row row">
+            <div><h2 class="models-title section-title">обслуговуємо</h2></div>
+            <ul class="models-list">
+              <li>
+                <img src="./img/brand.png" alt="моделі авто" /><span></span>
+              </li>
+              <li>
+                <img src="./img/brand.png" alt="моделі авто" /><span></span>
+              </li>
+              <li>
+                <span></span><img src="./img/brand.png" alt="моделі авто" />
+              </li>
+              <li>
+                <span></span><img src="./img/brand.png" alt="моделі авто" />
+              </li>
+              <li>
+                <span></span><img src="./img/brand.png" alt="моделі авто" />
+              </li>
+              <li>
+                <span></span><img src="./img/brand.png" alt="моделі авто" />
+              </li>
+              <li>
+                <span></span><img src="./img/brand.png" alt="моделі авто" />
+              </li>
+              <li>
+                <span></span><img src="./img/brand.png" alt="моделі авто" />
+              </li>
+              <li>
+                <span></span><img src="./img/brand.png" alt="моделі авто" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews section">
+      <div class="container-left">
+        <div class="container">
+          <div class="reviews-row row">
+            <div class="reviews-title-wrep">
+              <h2 class="reviews-title section-title">відгуки</h2>
+            </div>
+            <div class="swiper swiper-reviews">
+              <div class="swiper-wrapper reviews-list">
+                <div class="swiper-slide">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. At sed praesent
+                    gravida at. Id ullamcorper non id arcu tristique sem.
+                    Sagittis sodales justo est phasellus ac elit magna et. Diam
+                    bibendum blandit lectus urna cum. Sem nec in sit aliquet
+                    erat phasellus massa aenean tempus. Orci volutpat faucibus
+                    congue lectus est.
+                  </p>
+                  <span>John Doe</span>
+                </div>
+                <div class="swiper-slide">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. At sed praesent
+                    gravida at. Id ullamcorper non id arcu tristique sem.
+                    Sagittis sodales justo est phasellus ac elit magna et. Diam
+                    bibendum blandit lectus urna cum. Sem nec in sit aliquet
+                    erat phasellus massa aenean tempus. Orci volutpat faucibus
+                    congue lectus est.
+                  </p>
+                  <span>John Doe</span>
+                </div>
+                <div class="swiper-slide">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. At sed praesent
+                    gravida at. Id ullamcorper non id arcu tristique sem.
+                    Sagittis sodales justo est phasellus ac elit magna et. Diam
+                    bibendum blandit lectus urna cum. Sem nec in sit aliquet
+                    erat phasellus massa aenean tempus. Orci volutpat faucibus
+                    congue lectus est.
+                  </p>
+                  <span>John Doe</span>
+                </div>
+              </div>
+            </div>
+            <div class="swp-button-wrap">
+              <div class="swp-button-prev">
+                <img src="./img/rr.svg" alt="" />
+              </div>
+              <div class="swp-button-next">
+                <img src="./img/rl.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <img class="vector" src="./img/Vector.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="about_us section">
+      <div class="container-left">
+        <div class="container">
+          <div class="about_us-title-wrep row">
+            <div><h2 class="about_us-title section-title">про нас</h2></div>
+            <p class="about_us-description">
+              Lorem ipsum dolor sit amet consectetur. At sed praesent gravida
+              at. Id ullamcorper non id arcu tristique sem. Sagittis sodales
+              justo est phasellus ac elit magna et. Diam bibendum blandit lectus
+              urna cum. Sem nec in sit aliquet erat phasellus massa aenean
+              tempus. Orci volutpat faucibus congue lectus est. Bibendum nec sed
+              rhoncus leo eget.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper swiper-about_us">
+        <ul class="about_us-list swiper-wrapper">
+          <li class="swiper-slide">
+            <img src="./img/slide1.jpg" alt="" />
+          </li>
+          <li class="swiper-slide">
+            <img src="./img/slide2.jpg" alt="" />
+          </li>
+          <li class="swiper-slide">
+            <img src="./img/slide3.jpg" alt="" />
+          </li>
+          <li class="swiper-slide">
+            <img src="./img/slide2.jpg" alt="" />
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+        <div class="s-button-wrap">
+          <div class="s-button-prev">
+            <img src="./img/l.svg" alt="" />
+          </div>
+          <div class="s-button-next">
+            <img src="./img/r.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form section">
+      <div class="form-container container-left">
+        <div class="form-container container">
+          <div class="form-row row">
+            <div>
+              <h2 class="form-title section-title">Записатися Онлайн</h2>
+            </div>
+            <div class="form-wrep angles">
+              <span></span>
+              <form action="">
+                <input type="text" name="name" placeholder="Ім'я" />
+                <input type="tel" name="tel" placeholder="Телефон" />
+                <button class="form-btn btn" type="submit">
+                  Записатися Онлайн
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section">
+      <div class="container-left">
+        <div class="container">
+          <div class="faq-row row">
+            <div class="faq-title-wrep">
+              <h2 class="faq-title section-title">FAQ</h2>
+            </div>
+            <ul class="faq-wrep" id="accordeon">
+              <li class="angles">
+                <span></span>
+                <div class="faq-title1 acc-head">
+                  <h3>Чи варто використовувати синтетичну моторну олію?</h3>
+                  <button type="button" class="faq-open1">
+                    <img src="./img/icon-plas.svg" alt="іконка" />
+                  </button>
+                  <button type="button" class="faq-closed1 is-hidden">
+                    <img src="./img/icon-min.svg" alt="іконка" />
+                  </button>
+                </div>
+                <p class="faq-text1 is-hidden acc-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Saepe quis magnam dolor nobis dignissimos, natus cumque,
+                  asperiores repellendus tempore eligendi harum corrupti
+                  mollitia. Asperiores voluptatum dolores, necessitatibus
+                  repellat delectus voluptates.
+                </p>
+              </li>
+              <li class="angles">
+                <span></span>
+                <div class="faq-title1 acc-head">
+                  <h3>Чи варто використовувати синтетичну моторну олію?</h3>
+                  <button type="button" class="faq-open1">
+                    <img src="./img/icon-plas.svg" alt="іконка" />
+                  </button>
+                  <button type="button" class="faq-closed1 is-hidden">
+                    <img src="./img/icon-min.svg" alt="іконка" />
+                  </button>
+                </div>
+                <p class="faq-text1 is-hidden acc-body">
+                  1) масло в двигателе: темное меняем до срока <br />
+                  2) не забываем о масле в трансмиссии<br />
+                  3) инжектор: чистим раз на 20—30 тыс. Км <br />
+                  4) фильтры: меняем за компанию<br />
+                  5) охлаждающая жидкость<br />
+                  6) ходовая: на проверку два раза в год<br />
+                  7) ремни: малейшие трещины — сигнал для замены <br />
+                  8) не забываем про тормозную жидкость<br />
+                  9) свечи: у каждой свой ресурс службы
+                </p>
+              </li>
+              <li class="angles">
+                <span></span>
+                <div class="faq-title1 acc-head">
+                  <h3>Чи варто використовувати синтетичну моторну олію?</h3>
+                  <button type="button" class="faq-open1">
+                    <img src="./img/icon-plas.svg" alt="іконка" />
+                  </button>
+                  <button type="button" class="faq-closed1 is-hidden">
+                    <img src="./img/icon-min.svg" alt="іконка" />
+                  </button>
+                </div>
+                <p class="faq-text1 is-hidden acc-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Saepe quis magnam dolor nobis dignissimos, natus cumque,
+                  asperiores repellendus tempore eligendi harum corrupti
+                  mollitia. Asperiores voluptatum dolores, necessitatibus
+                  repellat delectus voluptates.
+                </p>
+              </li>
+              <li class="angles">
+                <span></span>
+                <div class="faq-title1 acc-head">
+                  <h3>Чи варто використовувати синтетичну моторну олію?</h3>
+                  <button type="button" class="faq-open1">
+                    <img src="./img/icon-plas.svg" alt="іконка" />
+                  </button>
+                  <button type="button" class="faq-closed1 is-hidden">
+                    <img src="./img/icon-min.svg" alt="іконка" />
+                  </button>
+                </div>
+                <p class="faq-text1 is-hidden acc-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Saepe quis magnam dolor nobis dignissimos, natus cumque,
+                  asperiores repellendus tempore eligendi harum corrupti
+                  mollitia. Asperiores voluptatum dolores, necessitatibus
+                  repellat delectus voluptates.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer section">
+      <div class="s-footer">
+        <div class="container-left">
+          <div class="container">
+            <div class="footer-top row">
+              <div class="footer-logo logo">
+                <img src="./img/logo.svg" alt="логотип" />
+                <a href="./index.html"> <span>Вишка</span></a>
+              </div>
+              <ul class="footer-top-list">
+                <li>
+                  <div class="footer-top-list-icon angles">
+                    <span></span><img src="./img/icon-phone.svg" alt="іконка" />
+                  </div>
+                  <div class="footer-top-list-text">
+                    <p>Дзвоніть</p>
+                    <p>(050)-4-115-164</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="footer-top-list-icon angles">
+                    <span></span><img src="./img/icon-loco.svg" alt="іконка" />
+                  </div>
+                  <div class="footer-top-list-text">
+                    <p>Приїжджайте</p>
+                    <p>
+                      Україна, м. Дніпро,<br />
+                      Вулиця Телевізійна 3
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="footer-top-list-icon angles">
+                    <span></span><img src="./img/icon-clok.svg" alt="іконка" />
+                  </div>
+                  <div class="footer-top-list-text">
+                    <p>Час роботи</p>
+                    <p>Пн.-Пт: 09:30-19:00</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-left footer-bottom-container">
+        <div class="container footer-bottom-container">
+          <div class="footer-bottom row">
+            <div class="footer-bottom-menu" id="accordeon-menu-1">
+              <div class="footer-bottom-menu-title-wrap accm1-head">
+                <h3>меню</h3>
+                <img src="./img/Icons-show-menu.svg" alt="" />
+              </div>
+              <ul class="accm1-body">
+                <li>
+                  <a href="./index.html" class="nav-link current">Головна</a>
+                </li>
+                <li><a href="./services.html" class="nav-link">Послуги</a></li>
+                <li><a href="./contacts.html" class="nav-link">Контакти</a></li>
+              </ul>
+            </div>
+            <div class="footer-bottom-service-wrep">
+              <div class="footer-bottom-service" id="accordeon-menu-2">
+                <div class="footer-bottom-menu-title-wrap accm2-head">
+                  <h3 class="">Послуги</h3>
+                  <img src="./img/Icons-show-menu.svg" alt="" />
+                </div>
+                <ul class="accm2-body">
+                  <li><a href="./post_1.html">Діагностика</a></li>
+                  <li><a href="./post_1.html">Електрообладнання</a></li>
+                  <li><a href="./post_1.html">Розвал-сходження</a></li>
+                  <li><a href="./post_1.html">Технічне обслуговування</a></li>
+                  <li><a href="./post_1.html">Рульове управління</a></li>
+                  <li><a href="./post_1.html">Ремонт паливної системи</a></li>
+                  <li><a href="./post_1.html">Ремонт гальм</a></li>
+                </ul>
+              </div>
+              <div class="footer-bottom-service-form" id="accordeon-menu-3">
+                <div class="footer-bottom-menu-title-wrap accm3-head">
+                  <h3 class="">Записатися Онлайн</h3>
+                  <img src="./img/Icons-show-menu.svg" alt="" />
+                </div>
+                <form action="#" class="accm3-body">
+                  <input type="text" name="name" placeholder="Ім'я" />
+                  <input type="tel" name="tel" placeholder="Телефон" />
+                  <button class="footer-btn btn" type="submit">
+                    Записатися Онлайн
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="s-footer-bottom">
+        <div class="container-left">
+          <div class="container">
+            <div class="s-footer-bottom-wrep">
+              <div>© 2019 Вишка</div>
+              <ul>
+                <li><img src="./img/icon-fb.svg" alt="icon-fb" /></li>
+                <li><img src="./img/icon-twitter.svg" alt="icon-twitter" /></li>
+                <li><img src="./img/icon-inst.svg" alt="icon-inst" /></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="backdrop popup-fade">
+      <div class="modal popup">
+        <button class="button-x popup-close" type="button">
+          <img src="./img/icon-close.svg" alt="іконка" />
+        </button>
+        <p class="modal-title">Записатися Онлайн</p>
+        <form action="#" class="modal-form">
+          <input
+            id="user-name"
+            name="user-name"
+            type="text"
+            placeholder="Iм'я"
+            aria-label="ім'я"
+          />
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            placeholder="Телефон"
+            aria-label="телефон"
+          />
+          <button class="modal-btn btn" type="submit">Записатися Онлайн</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script type="module" src="./js/swiper.js"></script>
+    <script type="module" src="./js/jquery.js"></script>
+    <script type="module" src="./js/mobile-menu.js"></script>
+    <script type="module" src="./js/accordeon.js"></script>
+    <script type="module" src="./js/modal.js"></script>
+  </body>
+</html>
